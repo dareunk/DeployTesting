@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
       - name: hello
-        image: pjbear/hello:latest
+        image:  eunjinchoi11/hello:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 5000
