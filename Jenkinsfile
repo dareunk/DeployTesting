@@ -4,7 +4,7 @@ pipeline {
         PROJECT_ID = 'chat-398404'
         CLUSTER_NAME = 'k8s'
         LOCATION = 'asia-northeast3-a'
-        CREDENTIALS_ID = 'gke'
+        CREDENTIALS_ID = 'f4456c71-a7b6-4a89-9f8e-c74cfb167ba1'
     }
     stages {
         stage("Checkout code") {
