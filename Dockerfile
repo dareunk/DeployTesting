@@ -3,7 +3,7 @@ ENV NODE_ENV="production"
 
 COPY . /app
 
-WOKDIR /app
+WORKDIR /app
 
 
 RUN npm install
@@ -15,5 +15,5 @@ WORKDIR /app
 ENV PORT 5000
 EXPOSE 5000
 
-CMD["npm","start"]
+CMD ["npm","start"]
 
